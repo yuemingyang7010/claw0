@@ -138,6 +138,16 @@ python zh/s02_tool_use.py
 # You > 在 hello.txt 顶部添加一行注释
 ```
 
+```
+对话测试：
+You > 创建一个名为 hello.txt 的文件, 内容是 "Hello World"
+  [tool: write_file] hello.txt
+
+Assistant: 已创建 `hello.txt` 文件，内容包含 "Hello World"。
+```
+
+
+
 ## OpenClaw 中的对应实现
 
 | 方面             | claw0 (本文件)                 | OpenClaw 生产代码                      |
